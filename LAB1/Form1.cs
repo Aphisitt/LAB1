@@ -1,4 +1,7 @@
-﻿namespace LAB1
+﻿using System;
+using System.Xml;
+
+namespace LAB1
 {
     public partial class Form1 : Form
     {
@@ -101,27 +104,64 @@
             textBoxInput.Text = userinput + "0";
 
         }
-
-        private void button12_Click(object sender, EventArgs e)
-        {
-
-        }
         //globle variable
         string number1 = string.Empty;
+        string number2 = string.Empty;
+        String operation = string.Empty;
+        private void button12_Click(object sender, EventArgs e)
+        {
+            number1 = textBoxInput.Text;
+            textBoxInput.Text = string.Empty;
+            operation = "-";
+        }
+
         private void button11_Click(object sender, EventArgs e)
         {
             number1 = textBoxInput.Text;
-                textBoxInput.Text = string.Empty;
-            string operation = "+";
+            textBoxInput.Text = string.Empty;
+            operation = "+";
         }
         //ปุุ่มเท่ากับ
         private void button15_Click(object sender, EventArgs e)
         {
             string number2 = textBoxInput.Text;
-             int num1 = int.Parse(number1);
-             int num2 = int.Parse(number2);
-             int output = num1 + num2;
+            int num1 = int.Parse(number1);
+            int num2 = int.Parse(number2);
+            float output = 0;
+            if (operation == "+")
+            {
+                output = num1 + num2;
+            }
+            if (operation == "-")
+            {
+                output = num1 - num2;
+            }
+            if (operation == "*")
+            {
+                output = num1 * num2;
+            }
+            if (operation == "/")
+            {
+                output = num1 / num2;
+            }
+            output.ToString();
+
             textBoxInput.Text = output.ToString();
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            number1 = textBoxInput.Text;
+            textBoxInput.Text = string.Empty;
+            operation = "*";
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            number1 = textBoxInput.Text;
+            textBoxInput.Text = string.Empty;
+            operation = "/";
         }
     }
 }
+

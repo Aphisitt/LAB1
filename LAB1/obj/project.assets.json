@@ -8,19 +8,24 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\NK 2314\\.nuget\\packages\\": {}
+    "C:\\Users\\acerb\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\NK 2314\\Desktop\\lab0\\LAB1\\LAB1\\LAB1.csproj",
+      "projectUniqueName": "C:\\Users\\acerb\\source\\repos\\Aphisitt\\LAB1\\LAB1\\LAB1.csproj",
       "projectName": "LAB1",
-      "projectPath": "C:\\Users\\NK 2314\\Desktop\\lab0\\LAB1\\LAB1\\LAB1.csproj",
-      "packagesPath": "C:\\Users\\NK 2314\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\NK 2314\\Desktop\\lab0\\LAB1\\LAB1\\obj\\",
+      "projectPath": "C:\\Users\\acerb\\source\\repos\\Aphisitt\\LAB1\\LAB1\\LAB1.csproj",
+      "packagesPath": "C:\\Users\\acerb\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\acerb\\source\\repos\\Aphisitt\\LAB1\\LAB1\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\NK 2314\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\acerb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
